@@ -4,8 +4,6 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
-
 public class Emailregex_exceptionhandling {
     // Regular expression for validating email addresses
     private static final String EMAIL_REGEX =
