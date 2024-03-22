@@ -2,11 +2,7 @@ package Assignment3;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class DatePatternFormatter {
     public static void main(String[] args) {
@@ -19,5 +15,10 @@ public class DatePatternFormatter {
     }
 }
 
-// Record to generate getters and setters
-record FormattedDate(String formattedDate) {}
+// Record to hold formatted date
+record FormattedDate(String formattedDate) {
+    // Custom method to retrieve formatted date
+    public String formattedDate() {
+        return formattedDate;
+    }
+}
