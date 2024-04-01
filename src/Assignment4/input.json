@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "name": "Ravi",
+      "age": 35,
+      "city": "San Francisco",
+      "email": "ravi@example.com",
+      "phone": "9668866754"
+    },
+    {
+      "name": "Raksha",
+      "age": 25,
+      "city": "America",
+      "email": "raksha@example.com",
+      "phone": "9876543210"
+    }
+  ]
+}
