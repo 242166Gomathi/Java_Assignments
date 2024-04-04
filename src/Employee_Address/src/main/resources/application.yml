@@ -1,0 +1,5 @@
+springdoc:
+  info:
+    title: "Employee Management API"
+    version: "1.0"
+    description: "API for managing employees"
